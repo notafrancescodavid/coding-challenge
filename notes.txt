@@ -1,0 +1,8 @@
+- Brief instructions on how to run your code
+
+- Any notes we should bear in mind (e.g. why you made an unusual choice)
+
+- A brief note on what you found hardest about the challenge
+
+- A brief note on how you could improve your code further
+
