@@ -24,11 +24,11 @@ that will be an absolute path to the input file. For example, if you use Python
 , we will run your programs as follows.**
 
 ```
-python your-hash-solution.py /home/johndoe/challenge/input/hash-1.txt
+python your-hash-solution.py /home/johndoe/challenge/input/path-basic.txt
 ```
 
 In this case, your program should output the answer to
-`/home/johndoe/challenge/input/hash-1.txt.answer`.
+`/home/johndoe/challenge/input/path-basic.txt.answer`.
 
 There are example input and output files provided for each problem, which you
 can use as a baseline for testing your code. For example, your solution should be able to read the contents of `path-basic.txt` in the `input`
@@ -63,7 +63,7 @@ To be specific, your code will be evaluated for:
 
 ### What to submit and how
 
-Please fork this repo and send us a link to your fork.
+Please fork this repo and send us a link to your fork. Or send us a Zip file.
 
 The notes.txt file should include:
 
