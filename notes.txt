@@ -1,8 +1,21 @@
 - Brief instructions on how to run your code
 
+To execute the code run the following command and replace ABSOLUTE_PATH_OF_INPUT_FILE with the absolute path to the input file:
+node path-finder.js ABSOLUTE_PATH_OF_INPUT_FILE
+
 - Any notes we should bear in mind (e.g. why you made an unusual choice)
+1. I decided to use BreadthFirstSearch because of the unitary cost of edges and the potential big size of the map.
+2. It is possible to use other algorithms; to do so use an algorithm available from the library https://github.com/qiao/PathFinding.js/
+and set a new instance of the algorithm by using the the method map.setSearchAlgorithm
+3. The code takes into account also maps that don't have coordinates that start at 0,0. This is possibile because it creates
+maps relatively to minimum and maximum indices of x,y among all coordinates.
 
 - A brief note on what you found hardest about the challenge
+writing appropriate input tests and tests overall to invalidate/validate the code required a bit more time than expected.
 
 - A brief note on how you could improve your code further
+  1. get feedback from other people to understand where the code may not be easy to use/understand; and change it consequently
+  2. analysis on how and if to improve code performance
+  3. write configuration files to set the search algorithm and other info (e.g. extension of output file)
+  4. create a js file having an object containing as attributes all the strings to return in case of different errors and use it in the code
 

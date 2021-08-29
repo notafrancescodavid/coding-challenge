@@ -1,0 +1,29 @@
+{
+  "name": "coding-challenge",
+  "version": "1.0.0",
+  "description": "a coding challenge",
+  "main": "path-finder.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notafrancescodavid/coding-challenge.git"
+  },
+  "keywords": [
+    "coding",
+    "challenge"
+  ],
+  "author": "Francesco David Nota",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/notafrancescodavid/coding-challenge/issues"
+  },
+  "homepage": "https://github.com/notafrancescodavid/coding-challenge#readme",
+  "dependencies": {
+    "pathfinding": "^0.4.18"
+  },
+  "devDependencies": {
+    "jest": "^27.1.0"
+  }
+}
